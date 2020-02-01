@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8D276FB3857FEDBB973391 /* Pods_oriapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC30741509BDCDAE404BBCF /* Pods_oriapp.framework */; };
+		84038BA823D88E04001C7828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84038BA723D88E04001C7828 /* AppDelegate.swift */; };
+		84038BAA23D88E04001C7828 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84038BA923D88E04001C7828 /* SceneDelegate.swift */; };
+		84038BAC23D88E04001C7828 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84038BAB23D88E04001C7828 /* ViewController.swift */; };
+		84038BAF23D88E04001C7828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84038BAD23D88E04001C7828 /* Main.storyboard */; };
+		84038BB123D88E05001C7828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84038BB023D88E05001C7828 /* Assets.xcassets */; };
+		84038BB423D88E05001C7828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84038BB223D88E05001C7828 /* LaunchScreen.storyboard */; };
+		84038BBC23D89270001C7828 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84038BBB23D89270001C7828 /* LoginViewController.swift */; };
+		84038BBE23D8931E001C7828 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84038BBD23D8931E001C7828 /* RegistrationViewController.swift */; };
+		84038BC223D89425001C7828 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84038BC123D89425001C7828 /* BaseViewController.swift */; };
+		84038BC423D89768001C7828 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84038BC323D89768001C7828 /* CategoryViewController.swift */; };
+		84038BC623D8992C001C7828 /* MakeupkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84038BC523D8992C001C7828 /* MakeupkitViewController.swift */; };
+		84038BC823D8AD6B001C7828 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84038BC723D8AD6B001C7828 /* Products.swift */; };
+		8448E3C123E186C500D03521 /* EyeCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448E3C023E186C500D03521 /* EyeCareViewController.swift */; };
+		8448E3C323E1977D00D03521 /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448E3C223E1977D00D03521 /* OffersViewController.swift */; };
+		8448E3C523E199BB00D03521 /* offers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448E3C423E199BB00D03521 /* offers.swift */; };
+		8448E3C923E1ABF400D03521 /* OffersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448E3C823E1ABF400D03521 /* OffersDetailViewController.swift */; };
+		8476861423D9A35700C9B1FF /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476861323D9A35700C9B1FF /* CartViewController.swift */; };
+		8476861623D9A5BF00C9B1FF /* SkinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476861523D9A5BF00C9B1FF /* SkinViewController.swift */; };
+		84A9D34623DEBF2500EDBFFA /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9D34523DEBF2500EDBFFA /* ProductDetailsViewController.swift */; };
+		84F8637C23DF4591004CC052 /* ShowCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F8637B23DF4591004CC052 /* ShowCartViewController.swift */; };
+		84F8637E23DF45EB004CC052 /* Carts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F8637D23DF45EA004CC052 /* Carts.swift */; };
+		84F863A723DF5E37004CC052 /* skincare.Jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84F863A223DF5E37004CC052 /* skincare.Jpeg */; };
+		84F863A923DF5E37004CC052 /* lipcare1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F863A423DF5E37004CC052 /* lipcare1.jpg */; };
+		84F863AA23DF5E37004CC052 /* homepage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F863A523DF5E37004CC052 /* homepage2.jpg */; };
+		84F863AB23DF5E37004CC052 /* homepage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F863A623DF5E37004CC052 /* homepage1.jpg */; };
+		84F863AD23DF5EFC004CC052 /* eyecare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F863AC23DF5EFC004CC052 /* eyecare.jpg */; };
+		84F863AF23DF5F7A004CC052 /* haircare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84F863AE23DF5F7A004CC052 /* haircare.jpg */; };
+		84FBAEFA23D9E423009FA365 /* HairCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBAEF923D9E423009FA365 /* HairCareViewController.swift */; };
+		84FBAEFD23DA012E009FA365 /* LipCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBAEFC23DA012D009FA365 /* LipCareViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CC30741509BDCDAE404BBCF /* Pods_oriapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oriapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE04E757A18349CCECD5AFF /* Pods-oriapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oriapp.debug.xcconfig"; path = "Target Support Files/Pods-oriapp/Pods-oriapp.debug.xcconfig"; sourceTree = "<group>"; };
+		84038BA423D88E04001C7828 /* oriapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oriapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84038BA723D88E04001C7828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84038BA923D88E04001C7828 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84038BAB23D88E04001C7828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84038BAE23D88E04001C7828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84038BB023D88E05001C7828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84038BB323D88E05001C7828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84038BB523D88E05001C7828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84038BBB23D89270001C7828 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84038BBD23D8931E001C7828 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		84038BC123D89425001C7828 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		84038BC323D89768001C7828 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		84038BC523D8992C001C7828 /* MakeupkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeupkitViewController.swift; sourceTree = "<group>"; };
+		84038BC723D8AD6B001C7828 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		8448E3C023E186C500D03521 /* EyeCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeCareViewController.swift; sourceTree = "<group>"; };
+		8448E3C223E1977D00D03521 /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		8448E3C423E199BB00D03521 /* offers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offers.swift; sourceTree = "<group>"; };
+		8448E3C823E1ABF400D03521 /* OffersDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersDetailViewController.swift; sourceTree = "<group>"; };
+		8476861323D9A35700C9B1FF /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		8476861523D9A5BF00C9B1FF /* SkinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinViewController.swift; sourceTree = "<group>"; };
+		84A9D34523DEBF2500EDBFFA /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		84F8637B23DF4591004CC052 /* ShowCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCartViewController.swift; sourceTree = "<group>"; };
+		84F8637D23DF45EA004CC052 /* Carts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carts.swift; sourceTree = "<group>"; };
+		84F863A223DF5E37004CC052 /* skincare.Jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skincare.Jpeg; sourceTree = "<group>"; };
+		84F863A423DF5E37004CC052 /* lipcare1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lipcare1.jpg; sourceTree = "<group>"; };
+		84F863A523DF5E37004CC052 /* homepage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homepage2.jpg; sourceTree = "<group>"; };
+		84F863A623DF5E37004CC052 /* homepage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homepage1.jpg; sourceTree = "<group>"; };
+		84F863AC23DF5EFC004CC052 /* eyecare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eyecare.jpg; sourceTree = "<group>"; };
+		84F863AE23DF5F7A004CC052 /* haircare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haircare.jpg; sourceTree = "<group>"; };
+		84FBAEF923D9E423009FA365 /* HairCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairCareViewController.swift; sourceTree = "<group>"; };
+		84FBAEFC23DA012D009FA365 /* LipCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LipCareViewController.swift; sourceTree = "<group>"; };
+		B5359CAD50176CBD37DE288F /* Pods-oriapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oriapp.release.xcconfig"; path = "Target Support Files/Pods-oriapp/Pods-oriapp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84038BA123D88E04001C7828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8D276FB3857FEDBB973391 /* Pods_oriapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DE6CA1758DF22D774C7952E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CC30741509BDCDAE404BBCF /* Pods_oriapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84038B9B23D88E04001C7828 = {
+			isa = PBXGroup;
+			children = (
+				84038BA623D88E04001C7828 /* oriapp */,
+				84038BA523D88E04001C7828 /* Products */,
+				C5B31EB6DCFC8540824DFEB0 /* Pods */,
+				6DE6CA1758DF22D774C7952E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84038BA523D88E04001C7828 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84038BA423D88E04001C7828 /* oriapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84038BA623D88E04001C7828 /* oriapp */ = {
+			isa = PBXGroup;
+			children = (
+				84F863A123DF5E37004CC052 /* thumbnail */,
+				84038BA723D88E04001C7828 /* AppDelegate.swift */,
+				84038BA923D88E04001C7828 /* SceneDelegate.swift */,
+				84038BAB23D88E04001C7828 /* ViewController.swift */,
+				84038BAD23D88E04001C7828 /* Main.storyboard */,
+				84038BB023D88E05001C7828 /* Assets.xcassets */,
+				84038BB223D88E05001C7828 /* LaunchScreen.storyboard */,
+				84038BB523D88E05001C7828 /* Info.plist */,
+				84038BBB23D89270001C7828 /* LoginViewController.swift */,
+				84038BBD23D8931E001C7828 /* RegistrationViewController.swift */,
+				84038BC123D89425001C7828 /* BaseViewController.swift */,
+				84038BC323D89768001C7828 /* CategoryViewController.swift */,
+				84038BC523D8992C001C7828 /* MakeupkitViewController.swift */,
+				84038BC723D8AD6B001C7828 /* Products.swift */,
+				8476861323D9A35700C9B1FF /* CartViewController.swift */,
+				8476861523D9A5BF00C9B1FF /* SkinViewController.swift */,
+				84FBAEF923D9E423009FA365 /* HairCareViewController.swift */,
+				84FBAEFC23DA012D009FA365 /* LipCareViewController.swift */,
+				84A9D34523DEBF2500EDBFFA /* ProductDetailsViewController.swift */,
+				84F8637B23DF4591004CC052 /* ShowCartViewController.swift */,
+				84F8637D23DF45EA004CC052 /* Carts.swift */,
+				8448E3C023E186C500D03521 /* EyeCareViewController.swift */,
+				8448E3C223E1977D00D03521 /* OffersViewController.swift */,
+				8448E3C423E199BB00D03521 /* offers.swift */,
+				8448E3C823E1ABF400D03521 /* OffersDetailViewController.swift */,
+			);
+			path = oriapp;
+			sourceTree = "<group>";
+		};
+		84F863A123DF5E37004CC052 /* thumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				84F863AE23DF5F7A004CC052 /* haircare.jpg */,
+				84F863AC23DF5EFC004CC052 /* eyecare.jpg */,
+				84F863A223DF5E37004CC052 /* skincare.Jpeg */,
+				84F863A423DF5E37004CC052 /* lipcare1.jpg */,
+				84F863A523DF5E37004CC052 /* homepage2.jpg */,
+				84F863A623DF5E37004CC052 /* homepage1.jpg */,
+			);
+			name = thumbnail;
+			path = ../../../../Desktop/thumbnail;
+			sourceTree = "<group>";
+		};
+		C5B31EB6DCFC8540824DFEB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AE04E757A18349CCECD5AFF /* Pods-oriapp.debug.xcconfig */,
+				B5359CAD50176CBD37DE288F /* Pods-oriapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84038BA323D88E04001C7828 /* oriapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84038BB823D88E05001C7828 /* Build configuration list for PBXNativeTarget "oriapp" */;
+			buildPhases = (
+				2B1AB384194B78DBC490204B /* [CP] Check Pods Manifest.lock */,
+				84038BA023D88E04001C7828 /* Sources */,
+				84038BA123D88E04001C7828 /* Frameworks */,
+				84038BA223D88E04001C7828 /* Resources */,
+				87EA37C8C722763139358108 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oriapp;
+			productName = oriapp;
+			productReference = 84038BA423D88E04001C7828 /* oriapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84038B9C23D88E04001C7828 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84038BA323D88E04001C7828 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 84038B9F23D88E04001C7828 /* Build configuration list for PBXProject "oriapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84038B9B23D88E04001C7828;
+			productRefGroup = 84038BA523D88E04001C7828 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84038BA323D88E04001C7828 /* oriapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84038BA223D88E04001C7828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F863AD23DF5EFC004CC052 /* eyecare.jpg in Resources */,
+				84038BB423D88E05001C7828 /* LaunchScreen.storyboard in Resources */,
+				84F863A723DF5E37004CC052 /* skincare.Jpeg in Resources */,
+				84F863AB23DF5E37004CC052 /* homepage1.jpg in Resources */,
+				84F863AF23DF5F7A004CC052 /* haircare.jpg in Resources */,
+				84038BB123D88E05001C7828 /* Assets.xcassets in Resources */,
+				84F863AA23DF5E37004CC052 /* homepage2.jpg in Resources */,
+				84F863A923DF5E37004CC052 /* lipcare1.jpg in Resources */,
+				84038BAF23D88E04001C7828 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B1AB384194B78DBC490204B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oriapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87EA37C8C722763139358108 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oriapp/Pods-oriapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oriapp/Pods-oriapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oriapp/Pods-oriapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84038BA023D88E04001C7828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8448E3C923E1ABF400D03521 /* OffersDetailViewController.swift in Sources */,
+				84038BC823D8AD6B001C7828 /* Products.swift in Sources */,
+				8476861623D9A5BF00C9B1FF /* SkinViewController.swift in Sources */,
+				84FBAEFD23DA012E009FA365 /* LipCareViewController.swift in Sources */,
+				84038BBC23D89270001C7828 /* LoginViewController.swift in Sources */,
+				84F8637C23DF4591004CC052 /* ShowCartViewController.swift in Sources */,
+				8476861423D9A35700C9B1FF /* CartViewController.swift in Sources */,
+				84038BAC23D88E04001C7828 /* ViewController.swift in Sources */,
+				84FBAEFA23D9E423009FA365 /* HairCareViewController.swift in Sources */,
+				84A9D34623DEBF2500EDBFFA /* ProductDetailsViewController.swift in Sources */,
+				84038BC623D8992C001C7828 /* MakeupkitViewController.swift in Sources */,
+				8448E3C123E186C500D03521 /* EyeCareViewController.swift in Sources */,
+				84038BC423D89768001C7828 /* CategoryViewController.swift in Sources */,
+				84038BA823D88E04001C7828 /* AppDelegate.swift in Sources */,
+				8448E3C323E1977D00D03521 /* OffersViewController.swift in Sources */,
+				84038BAA23D88E04001C7828 /* SceneDelegate.swift in Sources */,
+				84038BBE23D8931E001C7828 /* RegistrationViewController.swift in Sources */,
+				84038BC223D89425001C7828 /* BaseViewController.swift in Sources */,
+				84F8637E23DF45EB004CC052 /* Carts.swift in Sources */,
+				8448E3C523E199BB00D03521 /* offers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84038BAD23D88E04001C7828 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84038BAE23D88E04001C7828 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84038BB223D88E05001C7828 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84038BB323D88E05001C7828 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84038BB623D88E05001C7828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84038BB723D88E05001C7828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84038BB923D88E05001C7828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE04E757A18349CCECD5AFF /* Pods-oriapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oriapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunbeam.oriapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84038BBA23D88E05001C7828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5359CAD50176CBD37DE288F /* Pods-oriapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oriapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunbeam.oriapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84038B9F23D88E04001C7828 /* Build configuration list for PBXProject "oriapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84038BB623D88E05001C7828 /* Debug */,
+				84038BB723D88E05001C7828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84038BB823D88E05001C7828 /* Build configuration list for PBXNativeTarget "oriapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84038BB923D88E05001C7828 /* Debug */,
+				84038BBA23D88E05001C7828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84038B9C23D88E04001C7828 /* Project object */;
+}
